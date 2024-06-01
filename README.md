@@ -17,7 +17,7 @@ Make sure that:
 apache, php and mysql are installed
 <br>
 <br>
-you run the database script to set up the database
+you run the database setup script to set up the database
 <br>
 <br>
 apache/php is configured to
