@@ -34,7 +34,6 @@ the root directory of the website is accessible to the user account that will be
 	- the uploads directory and everything in that directory should be accessible -- chmod 777 is a quick and dirty way, but it is better to make it a shared folder
 
 <br>
-<br>
 change the database access information on the following files: 
 <br>
 	- mysql_access_functions.php
