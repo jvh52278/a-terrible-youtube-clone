@@ -1,0 +1,55 @@
+/*delete the database if it exists -- start from a clean slate*/
+DROP DATABASE IF EXISTS database_test_A;
+/*create the database*/
+CREATE DATABASE database_test_A;
+/*create the tables*/
+USE database_test_A;
+CREATE TABLE user_Uploader_Info (
+uploader_Id int NOT NULL,
+uploader_user_name varchar(500) NOT NULL,
+username_Alias varchar(100),
+password varchar(500) NOT NULL,
+PRIMARY KEY (uploader_Id)
+);
+CREATE TABLE video_info (
+upload_Id varchar(500) NOT NULL,
+uploader_Id int NOT NULL,
+upload_Date datetime NOT NULL,
+file_Location varchar(500) NOT NULL,
+file_Name_Full varchar(500) NOT NULL,
+video_Title varchar(500) NOT NULL,
+file_Description varchar(500) NOT NULL,
+path_To_Video_Page varchar(100) NOT NULL,
+path_To_Video_Thumbnail varchar(100),
+video_Length double(10,4) NOT NULL,
+PRIMARY KEY (upload_Id)
+);
+CREATE TABLE admin_Passwords (
+associated_Admin_User varchar(500),
+admin_password varchar(500) NOT NULL,
+PRIMARY KEY (admin_password)
+);
+/*create the default admin user and admin password*/
+/*NOTE: the default admin password is 'admin'*/
+INSERT INTO admin_Passwords 
+(
+associated_Admin_User,
+admin_password
+)
+VALUES 
+(
+SHA2('admin', 256),
+SHA2('admin', 256)
+);
+INSERT INTO user_Uploader_Info 
+(
+uploader_Id,
+uploader_user_name,
+password
+)
+VALUES 
+(
+0,
+SHA2('admin', 256),
+SHA2('admin', 256)
+);
