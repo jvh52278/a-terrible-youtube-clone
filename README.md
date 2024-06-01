@@ -3,6 +3,7 @@ A content hosting website I made because I didn't feel like installing and setti
 So how does it work? To access the site, you need to first login. This requires creating a user account, which also requires an admin password. The admin password (which you can also find in the database setup instructions) is "admin". Once you've logged in, you can upload and view videos. You can also delete uploads. As far as account management goes, you can change your password. That's about it. There are buttons and pages for other features, but those do not work. I stopped working on them when I realized that I didn't really need them.
 
 The following dependencies were used:
+<br>
 ffmpeg
 mysql 8.0.32
 apache 2.4.52
