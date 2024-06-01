@@ -1,0 +1,80 @@
+body {
+    background-color: #CDCDCD;
+}
+/*flex section top*/
+#flex_section {
+    display: flex;
+    background-color: darkgray;
+    position: sticky;
+    padding: 10px;
+    top: 0;
+}
+#flex_section > #homepage_return {
+    /*this should be sticky*/
+    flex: 1;
+    top: 0;
+}
+#flex_section > form {
+    /*this should be sticky*/
+    flex: 8;
+    text-align: center;
+    font-size: 20px;
+    top: 0;
+}
+#flex_section > form > #submit{
+    font-size: 20px;
+}
+#flex_section > form > #search_bar{
+    font-size: 20px;
+}
+#flex_section > #links {
+    /*this should be sticky*/
+    flex: 4;
+    top: 0;
+}
+#flex_section > #links > a {
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*flex section top*/
+#video_description {
+    background-color: darkgray;
+    margin: 2px;
+}
+#video_description {
+    overflow: hidden;
+    padding: 10px;
+}
+/*flex section bottom*/
+#bottom_flex_section {
+    display: flex;
+}
+#bottom_flex_section > #left{
+    flex: 6;
+    background-color: darkgray;
+    margin: 2px;
+     /*for testing*/
+    height: 200px;
+}
+#bottom_flex_section > #right{
+    flex: 2;
+    background-color: darkgray;
+    margin: 2px;
+    /*for testing*/
+    height: 200px;
+}
+/*flex section bottom*/
+#description_header {
+    font-weight: bold;
+}
+#video_section > video {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

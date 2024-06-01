@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+#title_container {
+    background-color: orange;
+}
+body {
+    background-color: lightgray;
+}

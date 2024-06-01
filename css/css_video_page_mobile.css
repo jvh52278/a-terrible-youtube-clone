@@ -1,0 +1,53 @@
+body {
+    background-color: darkgrey;
+}
+#content {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightgray;
+    padding: 10px;
+}
+#image_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+#search_bar {
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navigation_links {
+    display: block;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#video_player {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#video_information {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: orange;
+}
+#video_title {
+    font-weight: bold;
+}

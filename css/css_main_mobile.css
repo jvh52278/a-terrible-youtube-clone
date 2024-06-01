@@ -1,0 +1,11 @@
+body {
+    background-color: darkgrey;
+}
+
+#content {
+    padding: 10px;
+    background-color: lightgray;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
