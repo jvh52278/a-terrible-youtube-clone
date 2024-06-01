@@ -40,6 +40,7 @@ change the database access information on the following files:
 <br>
 <br>
 Other notes:
+<br>
 - This was developed and tested on Ubuntu 22.04. If hosted on a non-ubuntu (or non-linux) system, you may need to adjust file paths in the upload processing pages.
-
+<br>
 - Part of the video processing is done clientside. Uploading a video with a video and/or audio codec that your browser does not recognize may result in a failed upload.
